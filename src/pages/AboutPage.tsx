@@ -74,9 +74,9 @@ export const AboutPage: React.FC = () => {
           <div className="gaming-card p-4 sm:p-6 max-w-3xl mx-auto">
             <div className="rounded-2xl overflow-hidden bg-[#12141C] border border-[#2E344D] p-2">
               <img
-                src="/assets/aistudio/_______________d4401d74.png"
-                alt="애매한 삼십대 7명의 공식 마스코트"
-                className="w-full h-auto rounded-xl"
+                src="/characters/group_banner.png"
+                alt="애매한 삼십대 7인 순정만화풍 공식 캐릭터 일러스트"
+                className="w-full h-auto rounded-xl object-cover"
               />
             </div>
             <div className="pt-4 flex items-center justify-between text-xs text-[#94A3B8] font-heading">

@@ -15,7 +15,7 @@ export const CHANNEL_SETTINGS: ChannelSettings = {
   heroHeadline_en: 'After-work thirty-somethings: excuses come faster than victory.',
   heroLabel_ko: '7명이 함께하는 목소리 중심 게임 채널',
   heroLabel_en: 'A voice-driven gaming channel by seven friends',
-  heroSub_ko: '억울한 남탓과 끊이지 않는 티키타카, 7명의 유쾌한 게임 플레이를 만나보세요.',
+  heroSub_ko: '억울한 남탓과 끊이지 않는 티키타카, 7명의 유쾌한 순정만화풍 게임 플레이를 만나보세요.',
   heroSub_en: 'Endless banter, hilarious excuses, and unexpected teamwork from seven friends inside gaming.'
 };
 
@@ -25,18 +25,18 @@ export const MEMBERS: Member[] = [
     slug: 'yemong',
     name: '예몽',
     name_en: 'Yemong',
-    colorName: '민트 (Mint)',
-    colorHex: '#2CB199',
-    bgColor: '#E6F8F5',
-    position: '하이텐션 방랑자',
-    position_en: 'High-Energy Wanderer',
-    intro: '퍼즐·퀴즈에 특화된 면이 있는 하이텐션 방랑자. 집중하면 과묵해지고, 텐션이 오르면 혼잣말과 노래로 오디오를 채운다.',
-    intro_en: 'A high-energy wanderer with a knack for puzzles and quizzes. Quiet when focused, but when the energy peaks, the audio fills up with muttering and singing.',
-    mascotImage: '/mascots/yemong.png',
+    colorName: '라벤더 & 퍼플 (Lavender)',
+    colorHex: '#A855F7',
+    bgColor: '#2E1A47',
+    position: '눈물의 순정 여주 & 하이텐션',
+    position_en: 'Tearful Heroine & High Energy',
+    intro: '화려한 라벤더 드레스와 반짝이는 눈물이 매력적인 순정만화 여주인공. 퍼즐과 퀴즈에 특화되어 있으며 텐션이 오르면 혼잣말과 노래로 오디오를 빈틈없이 채운다.',
+    intro_en: 'A classic romantic manga heroine with sparkling tears and a lavender rococo dress. Knack for puzzles and quizzes, filling every silence with songs and mutterings.',
+    mascotImage: '/characters/yemong.jpg',
     abilities: [
-      { name: '퍼즐·퀴즈', name_en: 'Puzzle & Quiz', value: 4, basis: '퍼즐·퀴즈에 특화된 면' },
-      { name: '텐션', name_en: 'Energy', value: 5, basis: '하이텐션 방랑자' },
-      { name: '혼잣말·노래', name_en: 'Self-talk & Singing', value: 4, basis: '텐션 오를 때 오디오 풀 가동' }
+      { name: '퍼즐·퀴즈', name_en: 'Puzzle & Quiz', value: 4, basis: '퍼즐·퀴즈에 특화된 브레인' },
+      { name: '텐션 & 오디오', name_en: 'Energy & Audio', value: 5, basis: '텐션 오를 때 멈추지 않는 노래' },
+      { name: '감수성 (눈물)', name_en: 'Tears & Emotion', value: 5, basis: '툭하면 터지는 폭풍 눈물' }
     ],
     displayOrder: 1
   },
@@ -45,16 +45,17 @@ export const MEMBERS: Member[] = [
     slug: 'ttugi',
     name: '뚜기',
     name_en: 'Ttugi',
-    colorName: '연두 (Light Green)',
-    colorHex: '#48BB78',
-    bgColor: '#F0FFF4',
-    position: '리액션 플레이어',
-    position_en: 'Reaction Player',
-    intro: '상황에 따라 다양한 반응을 보여주는 플레이어.',
-    intro_en: 'A player whose reactions change with every situation.',
-    mascotImage: '/mascots/ttugi.png',
+    colorName: '민트 & 피치 (Mint & Peach)',
+    colorHex: '#2DD4BF',
+    bgColor: '#133534',
+    position: '별빛 눈망울의 리액션 요정',
+    position_en: 'Starry-Eyed Reaction Fairy',
+    intro: '커다란 초록 리본과 밤하늘 별을 담은 큰 눈망울을 지닌 순정파 플레이어. 매 순간 게임 속 상황에 따라 스펙터클하고 다채로운 리액션을 쏟아낸다.',
+    intro_en: 'A sweet character with giant starry eyes and an oversized green ribbon. Her dramatic reactions morph with every unexpected turn.',
+    mascotImage: '/characters/ttugi.jpg',
     abilities: [
-      { name: '리액션 폭', name_en: 'Reaction Range', value: 4, basis: '상황에 따라 다양한 반응' }
+      { name: '리액션 폭', name_en: 'Reaction Range', value: 5, basis: '상황에 따라 폭발하는 감정 표현' },
+      { name: '눈망울 공격', name_en: 'Starry Eyes', value: 5, basis: '보는 순간 납득하게 되는 반짝이는 눈' }
     ],
     displayOrder: 2
   },
@@ -63,18 +64,18 @@ export const MEMBERS: Member[] = [
     slug: 'bowang',
     name: '보왕',
     name_en: 'Bowang',
-    colorName: '골드 & 로얄블루 (Gold)',
-    colorHex: '#D97706',
-    bgColor: '#FEF9C3',
-    position: '새침한 브레인',
-    position_en: 'Sassy Brain',
-    intro: '나긋나긋한 말투 속에 새침하고 엉뚱한 매력을 지닌 새침한 브레인.',
-    intro_en: 'A prim brain whose soft-spoken voice hides a sassy, quirky charm.',
-    mascotImage: '/mascots/bowang.png',
+    colorName: '로얄 블루 & 골드 (Royal Blue)',
+    colorHex: '#3B82F6',
+    bgColor: '#172554',
+    position: '은발의 냉철한 뇌섹 브레인',
+    position_en: 'Silver-Haired Royal Brain',
+    intro: '화려한 로얄 블루 근위대 군복과 은빛 장발을 휘날리는 냉철한 브레인. 나긋나긋한 귀족적 말투 속에 새침하고 엉뚱한 매력을 품고 있다.',
+    intro_en: 'A silver-haired prince in royal blue regalia. Beneath his prim, aristocratic cadence lies a sharp, sassy, and eccentric game mastermind.',
+    mascotImage: '/characters/bowang.jpg',
     abilities: [
-      { name: '두뇌', name_en: 'Brains', value: 5, basis: '새침한 브레인' },
-      { name: '새침함', name_en: 'Sassiness', value: 4, basis: '나긋나긋한 속 새침한 매력' },
-      { name: '엉뚱함', name_en: 'Quirkiness', value: 3, basis: '엉뚱한 매력' }
+      { name: '두뇌 & 전략', name_en: 'Brains & Tactics', value: 5, basis: '냉철한 판단과 새침한 브레인' },
+      { name: '새침함', name_en: 'Sassiness', value: 4, basis: '나긋나긋한 속 뼈 때리는 새침함' },
+      { name: '엉뚱함', name_en: 'Quirkiness', value: 3, basis: '가끔 터져나오는 귀족적 엉뚱함' }
     ],
     displayOrder: 3
   },
@@ -83,17 +84,17 @@ export const MEMBERS: Member[] = [
     slug: 'jakku',
     name: '자꾸',
     name_en: 'Jakku',
-    colorName: '국방색 (Khaki)',
-    colorHex: '#657850',
-    bgColor: '#F1F5EB',
-    position: '귀한 레어템',
-    position_en: 'Rare Item Character',
-    intro: '자주 등장하지 않지만, 한마디를 던질 때마다 강한 인상을 남기는 귀한 레어템.',
-    intro_en: 'A rare-item character who doesn\'t show up often but leaves a mark with every line.',
-    mascotImage: '/mascots/jakku.png',
+    colorName: '골든 블론드 & 네이비 (Gold)',
+    colorHex: '#EAB308',
+    bgColor: '#372B10',
+    position: '태양의 황금 사자 레어템',
+    position_en: 'Golden Sun Lion Noble',
+    intro: '눈부신 금빛 사자 갈기 같은 머릿결과 구릿빛 피부의 당당한 황태자. 자주 등장하지 않지만 등장할 때마다 묵직한 한마디로 강렬한 존재감을 각인시키는 귀한 캐릭터.',
+    intro_en: 'A radiant golden-haired nobleman with tanned skin and a majestic aura. Rare to appear, but delivers unforgettable one-liners whenever he arrives.',
+    mascotImage: '/characters/jakku.jpg',
     abilities: [
       { name: '희귀도', name_en: 'Rarity', value: 5, basis: '자주 등장하지 않는 귀한 레어템' },
-      { name: '한마디 임팩트', name_en: 'One-liner Impact', value: 4, basis: '한마디마다 강한 인상' }
+      { name: '한마디 임팩트', name_en: 'One-liner Impact', value: 5, basis: '묵직하게 꽂히는 명대사' }
     ],
     displayOrder: 4
   },
@@ -102,18 +103,18 @@ export const MEMBERS: Member[] = [
     slug: 'parkka',
     name: '파르카',
     name_en: 'Parkka',
-    colorName: '검정 (Black)',
-    colorHex: '#1F2937',
-    bgColor: '#F3F4F6', // Crisp light neutral to make black wolf mascot pop cleanly
-    position: '무결점 하드캐리',
-    position_en: 'Flawless Hard-Carry',
-    intro: '게임 실력이 뛰어나고 공포게임에서도 침착한 무결점 하드캐리 고인물.',
-    intro_en: 'A flawless hard-carry veteran: top-tier at games and calm even in horror titles.',
-    mascotImage: '/mascots/parkka.png',
+    colorName: '다크 틸 & 차콜 (Dark Teal)',
+    colorHex: '#14B8A6',
+    bgColor: '#162C2A',
+    position: '고독한 무결점 하드캐리',
+    position_en: 'Flawless Hard-Carry Ace',
+    intro: '날카로운 턱선과 흩날리는 은회색 웨이브 머릿결의 카리스마 에이스. 어떤 공포게임이나 절체절명의 위기 속에서도 흔들림 없는 냉철한 실력파.',
+    intro_en: 'A brooding, silver-haired ace with intense eyeliner. Unshakable calm under horror and unmatched carry skills in every crisis.',
+    mascotImage: '/characters/parkka.jpg',
     abilities: [
-      { name: '게임 실력', name_en: 'Game Skill', value: 5, basis: '게임 실력이 뛰어남' },
-      { name: '하드캐리', name_en: 'Hard Carry', value: 5, basis: '무결점 하드캐리 고인물' },
-      { name: '공포 속 침착함', name_en: 'Calm Under Horror', value: 4, basis: '공포게임에서도 침착한 플레이' }
+      { name: '게임 실력', name_en: 'Game Skill', value: 5, basis: '어떤 게임도 통달한 고인물' },
+      { name: '하드캐리', name_en: 'Hard Carry', value: 5, basis: '팀원들 다 쓰러져도 혼자 캐리' },
+      { name: '공포 속 침착함', name_en: 'Calm Under Horror', value: 5, basis: '귀신 앞에서도 흐트러짐 없는 눈빛' }
     ],
     displayOrder: 5
   },
@@ -122,17 +123,17 @@ export const MEMBERS: Member[] = [
     slug: 'sanchez',
     name: '산체스',
     name_en: 'Sanchez',
-    colorName: '보라 (Purple)',
-    colorHex: '#8B5CF6',
-    bgColor: '#F5F3FF',
-    position: '억울함 요정',
-    position_en: 'Grievance Fairy',
-    intro: '팀원들의 몰이를 받으며 억울해하는, 공인된 놀림감이자 억울함 요정.',
-    intro_en: 'The officially recognized target of the team\'s teasing, and the fairy of grievance.',
-    mascotImage: '/mascots/sanchez.png',
+    colorName: '에메랄드 틸 & 구릿빛 (Teal)',
+    colorHex: '#0D9488',
+    bgColor: '#1E2D2A',
+    position: '불운의 억울함 요정 & 검객',
+    position_en: 'Fairy of Grievance & Swashbuckler',
+    intro: '야성미 넘치는 흑발과 구릿빛 피부의 호쾌한 검객 비주얼을 자랑하지만, 실상은 늘 팀원들의 집중 몰이와 놀림을 온몸으로 받아내는 채널 공인 억울함 요정.',
+    intro_en: 'A dashing, tanned swashbuckler with open-collar charm who inevitably ends up as the team’s collective scapegoat and comedic victim.',
+    mascotImage: '/characters/sanchez.jpg',
     abilities: [
-      { name: '억울함', name_en: 'Grievance', value: 5, basis: '억울함 요정' },
-      { name: '놀림 지수', name_en: 'Teasing Level', value: 5, basis: '공인된 놀림감, 몰이를 받음' }
+      { name: '억울함 지수', name_en: 'Grievance Level', value: 5, basis: '숨만 쉬어도 억울한 상황 발생' },
+      { name: '놀림 유발력', name_en: 'Teasing Magnet', value: 5, basis: '팀원들이 못 참고 몰아가는 마성의 타겟' }
     ],
     displayOrder: 6
   },
@@ -141,17 +142,18 @@ export const MEMBERS: Member[] = [
     slug: 'romanov',
     name: '로마노프',
     name_en: 'Romanov',
-    colorName: '흰색 (White & Crimson)',
-    colorHex: '#DC2626',
-    bgColor: '#E2EEF5', // Soft sky blue backdrop so white/crimson mascot is visually distinct
-    position: '팩폭 & 사운드 효과',
-    position_en: 'Blunt Truths & Sound Effects',
-    intro: '적절한 추임새와 날카로운 게임 평가로 팩폭과 사운드 효과를 담당한다.',
-    intro_en: 'In charge of blunt truths and sound effects, with well-timed ad-libs and sharp game verdicts.',
-    mascotImage: '/mascots/romanov.png',
+    colorName: '다크 크림슨 & 버건디 (Burgundy)',
+    colorHex: '#E11D48',
+    bgColor: '#38131E',
+    position: '팩폭 귀족 & 기절킹 (체력 1)',
+    position_en: 'Blunt Truths & Faint King (HP: 1)',
+    intro: '고풍스러운 버건디 벨벳 코트를 입고 날카로운 팩폭과 추임새를 날리는 귀족. 하지만 체력이 단 1에 불과해 바람만 스쳐도 바닥에 눕는 채널 공인 최고 존엄 \'기절킹\'.',
+    intro_en: 'An aristocratic gentleman in deep velvet crimson with razorsharp critiques. However, boasting a staggering 1 HP, he faints at the slightest disturbance — the true Faint King.',
+    mascotImage: '/characters/romanov.jpg',
     abilities: [
-      { name: '팩폭', name_en: 'Blunt Truths', value: 5, basis: '날카로운 게임 평가와 팩폭' },
-      { name: '추임새', name_en: 'Ad-libs', value: 4, basis: '적절한 추임새와 사운드 효과' }
+      { name: '체력 (기절킹)', name_en: 'Stamina (Faint King)', value: 1, basis: '체력 1! 툭 치면 기절하는 극악의 유리몸' },
+      { name: '팩폭 타격감', name_en: 'Blunt Truths', value: 5, basis: '가차 없는 게임 평가와 날카로운 사운드' },
+      { name: '기절 사운드 효과', name_en: 'Fainting Sound FX', value: 5, basis: '기절할 때 울려 퍼지는 찰진 추임새' }
     ],
     displayOrder: 7
   }
@@ -189,7 +191,7 @@ export const VIDEOS: Video[] = [
     publishedAt: '2026-03-24',
     videoType: 'longform',
     isFeatured: true,
-    isHomeFeatured: true, // Home Featured Hero Video!
+    isHomeFeatured: true,
     startHereOrder: 1,
     thumbnailUrl: 'https://i.ytimg.com/vi/K06n5hRzXdY/hqdefault.jpg'
   },
@@ -313,7 +315,7 @@ export const NOTICES: Notice[] = [
   {
     id: 'notice-01',
     title: '애매한 삼십대 공식 웹사이트가 오픈되었습니다!',
-    content: `안녕하세요! '애매한 삼십대' 채널을 찾아주셔서 진심으로 감사드립니다.\n\n퇴근 후 모여 게임하는 30대 친구들의 유쾌한 플레이와 티키타카를 더 쉽고 즐겁게 찾아보실 수 있도록 공식 아카이브 웹사이트를 마련했습니다.\n\n멤버별 개성과 마스코트, 게임별·멤버별 영상 탐색, 채널의 소식을 한눈에 확인하실 수 있습니다. 영상에 대한 다양한 의견과 소통은 공식 유튜브 영상의 댓글을 통해 자유롭게 남겨주세요!\n\n앞으로도 유쾌한 웃음과 핑계 가득한 게임 플레이로 찾아뵙겠습니다. 감사합니다!`,
+    content: `안녕하세요! '애매한 삼십대' 채널을 찾아주셔서 진심으로 감사드립니다.\n\n퇴근 후 모여 게임하는 30대 친구들의 유쾌한 플레이와 티키타카를 더 쉽고 즐겁게 찾아보실 수 있도록 공식 아카이브 웹사이트를 마련했습니다.\n\n멤버별 개성과 순정만화풍 비주얼, 게임별·멤버별 영상 탐색, 채널의 소식을 한눈에 확인하실 수 있습니다. 영상에 대한 다양한 의견과 소통은 공식 유튜브 영상의 댓글을 통해 자유롭게 남겨주세요!\n\n앞으로도 유쾌한 웃음과 핑계 가득한 게임 플레이로 찾아뵙겠습니다. 감사합니다!`,
     publishedAt: '2026-11-06',
     category: '공지',
     category_en: 'Notice',

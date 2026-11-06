@@ -19,9 +19,9 @@ export const NotFoundPage: React.FC = () => {
         <div className="absolute inset-0 flex items-center justify-center">
           <div className="w-24 h-24 rounded-full bg-[#1A1D2A] shadow-2xl border-2 border-[#FFB800] p-2 flex items-center justify-center">
             <img
-              src="/mascots/yemong.png"
+              src="/characters/yemong.jpg"
               alt="길을 잃은 예몽이"
-              className="w-full h-full object-contain"
+              className="w-full h-full object-cover rounded-full"
             />
           </div>
         </div>

@@ -118,9 +118,9 @@ export const HomePage: React.FC = () => {
             <div className="gaming-card p-4 sm:p-5 relative group">
               <div className="relative rounded-2xl overflow-hidden bg-[#12141C] aspect-4/3 flex items-center justify-center border border-[#2E344D]">
                 <img
-                  src="/assets/aistudio/_______________d4401d74.png"
-                  alt="애매한 삼십대 7인 마스코트 캐릭터 단체 일러스트"
-                  className="w-full h-full object-contain p-2 group-hover:scale-105 transition-transform duration-500"
+                  src="/characters/group_banner.png"
+                  alt="애매한 삼십대 7인 순정만화풍 공식 캐릭터 일러스트"
+                  className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-[#12141C]/80 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity flex items-end p-5">
                   <span className="text-white text-xs font-heading bg-[#1A1D2A]/90 border border-[#2E344D] px-3 py-1.5 rounded-lg">

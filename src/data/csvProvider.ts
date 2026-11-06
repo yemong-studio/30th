@@ -57,8 +57,8 @@ export function sanitizeExternalUrl(url: string | undefined): string {
  * Content provider that returns verified data and supports optional live runtime CSV injection
  */
 export async function loadContentData(): Promise<ContentData> {
-  const cachedDataStr = sessionStorage.getItem('amber30s_content_cache');
-  const cacheTimestamp = sessionStorage.getItem('amber30s_content_timestamp');
+  const cachedDataStr = sessionStorage.getItem('amber30s_content_cache_v2');
+  const cacheTimestamp = sessionStorage.getItem('amber30s_content_timestamp_v2');
 
   if (cachedDataStr && cacheTimestamp) {
     const elapsed = Date.now() - parseInt(cacheTimestamp, 10);
@@ -90,7 +90,7 @@ export async function loadContentData(): Promise<ContentData> {
   };
 
   try {
-    sessionStorage.setItem('amber30s_content_cache', JSON.stringify({
+    sessionStorage.setItem('amber30s_content_cache_v2', JSON.stringify({
       settings: data.settings,
       members: data.members,
       videos: data.videos,
@@ -98,7 +98,7 @@ export async function loadContentData(): Promise<ContentData> {
       genres: data.genres,
       funTags: data.funTags
     }));
-    sessionStorage.setItem('amber30s_content_timestamp', Date.now().toString());
+    sessionStorage.setItem('amber30s_content_timestamp_v2', Date.now().toString());
   } catch {
     // Ignore storage quota
   }
