@@ -1,0 +1,81 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --bg-global: #12141C;
+    --bg-card: #1A1D2A;
+    --border-card: #2E344D;
+    --color-accent-yellow: #FFB800;
+    --color-accent-coral: #EF684B;
+    --text-white: #FFFFFF;
+    --text-muted: #94A3B8;
+  }
+
+  html {
+    scroll-behavior: smooth;
+    background-color: #12141C;
+    color: #FFFFFF;
+  }
+
+  body {
+    background-color: #12141C;
+    color: #FFFFFF;
+    min-height: 100vh;
+    font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    letter-spacing: -0.01em;
+    word-break: keep-all;
+    word-wrap: break-word;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  /* Headings & Titles styling per Typography Guide */
+  h1, h2, h3, h4, .font-heading {
+    font-family: 'Jua', 'CookieRun', 'Pretendard', sans-serif;
+    letter-spacing: -0.02em;
+    word-break: keep-all;
+    word-wrap: break-word;
+  }
+
+  p, span, div, a, button, input {
+    word-break: keep-all;
+    word-wrap: break-word;
+  }
+}
+
+/* Custom Gaming Card & Separator Classes */
+.gaming-card {
+  background-color: #1A1D2A;
+  border: 2px solid #2E344D;
+  border-radius: 16px;
+  box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.5);
+  transition: all 0.3s ease;
+}
+
+.gaming-card:hover {
+  border-color: #FFB800;
+  transform: translateY(-4px);
+}
+
+.section-separator {
+  border-bottom: 1px dashed #2A2F45;
+}
+
+/* Custom scrollbar in gamer dark navy style */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #12141C;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #2E344D;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #FFB800;
+}

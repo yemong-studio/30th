@@ -1,0 +1,6 @@
+{
+  "name": "애매한 삼십대 (Amber 30s) 공식 웹사이트",
+  "description": "퇴근 후 모인 30대, 승리보다 핑계가 빠르다. 7명이 함께하는 목소리 중심 게임 유튜브 채널 '애매한 삼십대'의 공식 브랜드 및 홍보 웹사이트입니다.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
